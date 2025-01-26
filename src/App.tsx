@@ -54,6 +54,7 @@ function App() {
             <Route path="/register" element={<Register />} />
 
             <Route element={<ProtectedRoute />}>
+              <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/kyc" element={<KYCForm />} />
             </Route>
