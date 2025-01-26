@@ -17,7 +17,7 @@ const KYCForm: React.FC = () => {
   const [email, setEmail] = useState("");
   const [document, setDocument] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
-  const { user, token } = useSelector((state: any) => state.auth);
+  const { token } = useSelector((state: any) => state.auth);
   const navigate = useNavigate();
 
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {

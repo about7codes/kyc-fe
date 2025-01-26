@@ -1,5 +1,5 @@
 // src/App.tsx
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
